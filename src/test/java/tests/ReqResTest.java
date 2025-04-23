@@ -4,10 +4,8 @@ import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import payloads.PayloadUtils;
-import utils.RestUtils;
 
 import static io.restassured.RestAssured.given;
-import static org.hamcrest.CoreMatchers.equalTo;
 
 public class ReqResTest extends BaseTest {
     @Test
